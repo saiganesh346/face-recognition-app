@@ -12,7 +12,7 @@ import './App.css';
 
 const returnclarifaiReturnOptions = (imageUrl) => {
 // Your PAT (Personal Access Token) can be found in the Account's Security section
-const PAT = 'YOUR_PERSOONAL_ACCESS TOKEN';
+const PAT = 'YOUR_PERSONAL_ACCESS TOKEN';
 // Specify the correct user_id/app_id pairings
 // Since you're making inferences outside your app's scope
 const USER_ID = 'YOUR_USER_ID';
