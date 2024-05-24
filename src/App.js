@@ -10,16 +10,12 @@ import ParticlesBg from 'particles-bg';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import './App.css';
 
-// const app =new Clarifai.App({
-//   apiKey: '71e0d278b8d9495bb9fa29994ad5dd30'
-// })
-
 const returnclarifaiReturnOptions = (imageUrl) => {
 // Your PAT (Personal Access Token) can be found in the Account's Security section
-const PAT = 'b07c12096a22467a8b0b7bdb037351d2';
+const PAT = 'YOUR_PERSOONAL_ACCESS TOKEN';
 // Specify the correct user_id/app_id pairings
 // Since you're making inferences outside your app's scope
-const USER_ID = 'saiganesh346';
+const USER_ID = 'YOUR_USER_ID';
 const APP_ID = 'Machinelearning';
 // Change these to whatever model and image URL you want to use
 const MODEL_ID = 'face-detection';
