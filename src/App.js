@@ -10,51 +10,6 @@ import ParticlesBg from 'particles-bg';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import './App.css';
 
-/*const returnclarifaiReturnOptions = (imageUrl) => {
-const PAT = 'b07c12096a22467a8b0b7bdb037351d2';
-// Specify the correct user_id/app_id pairings
-// Since you're making inferences outside your app's scope
-const USER_ID = 'saiganesh346';
-const APP_ID = 'Machinelearning';
-// Change these to whatever model and image URL you want to use
-const MODEL_ID = 'face-detection';
-const IMAGE_URL = imageUrl;*/
-
-/*const App = new Clarifai.App({
-  apikey : 'bfef1f55ec444b708a60771b61251f77'
-})*/
-
-/*const raw = JSON.stringify({
-    "user_app_id": {
-        "user_id": USER_ID,
-        "app_id": APP_ID
-    },
-    "inputs": [
-        {
-            "data": {
-                "image": {
-                    "url": IMAGE_URL
-                    // "base64": IMAGE_BYTES_STRING
-                }
-            }
-        }
-    ]
-});
-
-const requestOptions = {
-    method: 'POST',
-    MODEL_ID : MODEL_ID,
-    headers: {
-        'Accept': 'application/json',
-        'Authorization': 'Key ' + PAT
-    },
-    body: raw
-};
-
-return requestOptions;
-}*/
-
-
 const initialState = {
   input: '',
   imageUrl: '',
